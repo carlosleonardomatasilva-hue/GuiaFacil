@@ -8,7 +8,7 @@
 
 **Campus:** Villahermosa  
 **Reto:** Reto 1 · Puentes de oportunidad (ODS 10)  
-**Prototipo / Boceto Interactivo (Figma):** [Ver diseño interactivo en Figma](https://www.figma.com/make/ltcK0BY0zjrp1XmcTp84kz/Gu%C3%ADaF%C3%A1cil-Mobile-Design?t=UxkSrOZwocsLwGYi-1)
+**Prototipo / Boceto Interactivo (Figma):** [Ver diseño interactivo en Figma](https://www.figma.com/make/ltcK0BY0zjrp1XmcTp84kz/Gu%C3%ADaF%C3%A1cil-Mobile-Design?t=UxkSrOZwocsLwGYi-1) (No contiene la versión final de la aplicación)
 
 ---
 
