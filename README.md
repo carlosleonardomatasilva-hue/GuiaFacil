@@ -197,7 +197,7 @@ GuíaFácil utiliza tecnologías nativas de Android y servicios de inteligencia 
 | Diseño visual | Material Design 3 |
 | Arquitectura | MVVM (Model-View-ViewModel) |
 | Inteligencia artificial | Google Gemini API |
-| Modelo de inteligencia artificial | `gemini-2.5-flash` |
+| Modelo de inteligencia artificial | `Puede variar` |
 | Entrada por voz | `SpeechRecognizer` |
 | Lectura en voz alta | `TextToSpeech` |
 | Cámara | CameraX |
