@@ -31,38 +31,18 @@ La información sobre trámites gubernamentales, convocatorias, pensiones y serv
 
 ### Mapa de Uso (Flujo de Usuario)
 
-```text
-[Inicio de la App]
-       │
-       ▼
-┌──────────────────────────────────────────────────────────┐
-│ 1. Selección de Idioma / Lengua                          │
-│    • Español, Chontal, Tzotzil, Maya, Náhuatl,           │
-│      Kreyòl Ayisyen, English o "¿No encuentras tu idioma?"│
-└──────────────────────────┬───────────────────────────────┘
-                           │
-                           ▼
-┌──────────────────────────────────────────────────────────┐
-│ 2. Pantalla Principal (3 Opciones Claras)                │
-└───┬──────────────────────┬───────────────────────────┬───┘
-    │                      │                           │
-    ▼                      ▼                           ▼
-[Hablar con GuíaFácil] [Leer un Documento]   [Mis Trámites Guardados]
- • Pregunta por voz     • Foto con cámara     • Consulta checklists
-   o escribe duda         o desde galería       guardados sin datos
-    │                      │                           │
-    ▼                      ▼                           │
-┌──────────────────────────────────────────┐           │
-│ Procesamiento con Gemini (Nube)          │           │
-│ • Traducción a lengua elegida            │           │
-│ • Simplificación a lenguaje claro        │           │
-│ • Extracción de pasos y requisitos       │           │
-└──────────────────┬───────────────────────┘           │
-                   │                                   │
-                   ▼                                   │
-┌──────────────────────────────────────────┐           │
-│ Resultado Accesible                      │           │
-│ • Lectura en pantalla (tipografía grande)│           │
-│ • Botón "🔊 Escuchar respuesta" (Audio)   │           │
-│ • Botón "💾 Guardar lista" ──────────────┼───────────┘
-└──────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    A[Inicio de la App] --> B["1. Selección de Idioma / Lengua<br/>(Español, Chontal, Tzotzil, Maya, Náhuatl,<br/>Kreyòl Ayisyen, English o idioma escrito)"]
+    B --> C[2. Pantalla Principal]
+    
+    C --> D["Hablar con GuíaFácil<br/>(Voz o texto)"]
+    C --> E["Leer un Documento<br/>(Cámara o galería)"]
+    C --> F["Mis Trámites Guardados<br/>(Consulta sin datos)"]
+    
+    D --> G["Procesamiento con Gemini<br/>• Traducción a lengua elegida<br/>• Simplificación a lenguaje claro<br/>• Extracción de pasos"]
+    E --> G
+    
+    G --> H["Resultado Accesible<br/>• Lectura en pantalla<br/>• Botón 'Escuchar respuesta' (Audio)<br/>• Botón 'Guardar lista'"]
+    H --> F
+```
