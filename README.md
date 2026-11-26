@@ -31,7 +31,14 @@
 > **Nota:** El diseño de Figma corresponde al boceto inicial de UX. La implementación funcional completa se encuentra en este repositorio Android.
 
 ---
+## 📲 Descargar Aplicación (Android)
 
+Descarga e instala la última versión de **GuíaFácil** directamente en tu teléfono Android:
+
+[![Descargar APK](https://img.shields.io/badge/Descargar_APK-v1.0-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/TU_USUARIO/GuiaFacil/raw/refs/heads/main/GuiaFacil-v1.0.apk)
+
+> **Nota de instalación:** Si tu teléfono te pide permiso para instalar aplicaciones de fuentes desconocidas (desde el navegador o gestor de archivos), selecciona **Configuración > Permitir desde esta fuente** y continúa con la instalación.
+> 
 ## Tabla de contenidos
 
 1. [Resumen ejecutivo](#1-resumen-ejecutivo)
