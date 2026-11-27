@@ -35,7 +35,7 @@
 
 Descarga e instala la última versión de **GuíaFácil** directamente en tu teléfono Android:
 
-[![Descargar APK](https://github.com/carlosleonardomatasilva-hue/GuiaFacil/raw/refs/heads/main/releases/guia-facil-v1.0.apk)
+[Descargar APK](https://github.com/carlosleonardomatasilva-hue/GuiaFacil/raw/refs/heads/main/releases/guia-facil-v1.0.apk)
 
 > **Nota de instalación:** Si tu teléfono te pide permiso para instalar aplicaciones de fuentes desconocidas (desde el navegador o gestor de archivos), selecciona **Configuración > Permitir desde esta fuente** y continúa con la instalación.
 > 
